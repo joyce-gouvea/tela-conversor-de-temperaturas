@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("imgs/overlay.png"), url("imgs/bg.jpg");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: white;
+  border-bottom: white solid 2px;
+  text-shadow: 1px 1px 3px black;
+  letter-spacing: 3px;
+  margin: 5px 60px 0;
+  padding-bottom: 5px;
+}
+
+.page-subtitle {
+  margin-top: 0;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+
+.temperaturas{
+  margin-top: 60px;
+}
+
+.temperaturas div {
+  display: inline-block;
+  width: 250px;
+}
+
+#valorConvertido {
+  margin-top: 30px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+label {
+  color: black;
+  background-color: rgba(230, 230, 230, 0.6);
+  line-height: 1.8;
+  letter-spacing: 3px;
+  padding: 5px;
+}
+
+button {
+  margin: 12px auto;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+  display: block;
+  letter-spacing: 1px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+h2 {
+  color: black;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgb(172, 172, 172);
+}

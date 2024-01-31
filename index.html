@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <title>Conversor de temperaturas</title>
+    <meta charset="utf-8">
+    <meta name="author" content="joyce gouvêa">
+    <meta name="description" content="página de treino de código">
+    <meta name="keywords" content="página de treino, conversor de temperaturas">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de temperaturas
+      </h1>
+    
+      <p class="page-subtitle">
+        Converta valores em kelvin, celsius e fahrenheit!
+      </p>
+    
+      <div class="temperaturas">
+        <div>
+          <label for="moeda">Insira o valor em celsius</label><br>
+          <input type="number" id="valorC" size="2" /><br>
+    
+          <button type="submit" onclick="Converter('C-K')">Converter para kelvin</button>
+          <button type="submit" onclick="Converter('C-F')">Converter para fahrenheit</button>
+        </div>
+    
+        <div>
+          <label for="moeda">Insira o valor em kelvin</label><br>
+          <input type="number" id="valorK" size="2" /><br>
+    
+          <button type="submit" onclick="Converter('K-C')">Converter para celsius</button>
+          <button type="submit" onclick="Converter('K-F')">Converter para fahrenheit</button>
+        </div>
+    
+        <div>
+          <label for="moeda">Insira o valor em fahrenheit</label><br>
+          <input type="number" id="valorF" size="2" /><br>
+    
+          <button type="submit" onclick="Converter('F-C')">Converter para celsius</button>
+          <button type="submit" onclick="Converter('F-K')">Converter para kelvin</button>
+        </div>
+    
+      </div>
+    
+      <h2 id="valorConvertido"></h2>
+    
+    </div>
+    
+    <script src="javascript.js"></script>
+  </body>
+  
+</html>
